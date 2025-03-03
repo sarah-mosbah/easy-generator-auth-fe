@@ -23,10 +23,17 @@ To set up the project locally, follow these steps:
 
 ## Usage
 
+Add .env file with the following environment variable:
+```sh
+VITE_API_BASE_URL = your_api_url
+```
+
+
 To start the development server, run:
 ```sh
 npm start
 ```
+
 
 ## Pages
 
