@@ -36,7 +36,7 @@ export const signin = async (userData: SignInDto): Promise<void> => {
     credentials: "include",
   });
   if (!response.ok) {
-    throw new Error("signin failed");
+    throw new Error("Invalid username or password");
   }
 };
 
